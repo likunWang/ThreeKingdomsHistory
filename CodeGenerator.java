@@ -35,6 +35,9 @@ public class CodeGenerator {
 		gc.setDbSchema("");
 		gc.setDbPassword("");
 		gc.setDbUrl("");
+		if(ceshi){
+			test
+		}
 		// 支持生成的文件类型:生成PO、BASE_MAPPER_XML（自动覆盖）、Dao、VO、MapperXML（不覆盖）
 		gc.setGenTypes(
 //				new GenType[] { GenType.VO, GenType.PO, GenType.DAO, GenType.BASE_MAPPER_XML, GenType.MAPPER_XML });
